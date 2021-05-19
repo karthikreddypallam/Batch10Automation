@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Smoke Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test parallel="tests" name="LoginTest(failed)">
+    <classes>
+      <class name="com.openMRS.tests.LoginTest">
+        <methods>
+          <include name="closeReports"/>
+          <include name="testInvalidLogin"/>
+          <include name="testValidLogin"/>
+          <include name="initTest"/>
+          <include name="beforeSuite"/>
+          <include name="initSuite"/>
+          <include name="afterMethod"/>
+          <include name="quit"/>
+          <include name="initPages"/>
+        </methods>
+      </class> <!-- com.openMRS.tests.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test parallel="tests" name="LandingPage Test(failed)">
+    <classes>
+      <class name="com.openMRS.tests.HomePageTest">
+        <methods>
+          <include name="closeReports"/>
+          <include name="initPages"/>
+          <include name="initTest"/>
+          <include name="testNavToLandingPage"/>
+          <include name="beforeSuite"/>
+          <include name="initSuite"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.openMRS.tests.HomePageTest -->
+    </classes>
+  </test> <!-- LandingPage Test(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->

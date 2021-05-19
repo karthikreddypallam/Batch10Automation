@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 19.045 sec <<< FAILURE! - in TestSuite
+initPages(com.openMRS.tests.LoginTest)  Time elapsed: 11.719 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.openMRS.tests.LoginTest.initPages(LoginTest.java:36)
+
+testNavToLandingPage(com.openMRS.tests.HomePageTest)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected [My Store] but found [508 Resource Limit Is Reached]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.openMRS.tests.HomePageTest.testNavToLandingPage(HomePageTest.java:21)
+

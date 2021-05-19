@@ -1,0 +1,12 @@
+com/openMRS/tests/LandingPageTest.class
+com/openMRS/tests/HomePageTest.class
+com/testNG/Demo/DependsOnGroupsDemo.class
+com/testNG/Demo/DependsOnMethodsDemo.class
+com/openMRS/tests/BaseTest.class
+Batch10/Batch10MvnAutomationProj/NewTest.class
+Batch10/Batch10MvnAutomationProj/Login.class
+com/openMRS/tests/ListenersTest.class
+com/openMRS/tests/CartPageTest.class
+com/openMRS/tests/LoginTest.class
+Batch10/Batch10MvnAutomationProj/Register.class
+com/testNG/Demo/DataProviderExample.class
